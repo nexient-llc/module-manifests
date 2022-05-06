@@ -1,0 +1,11 @@
+<!--
+    This manifest defines the behavior of tf-module-components, a dependency of
+    all TF modules
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="tf-module-components" path="components/module" revision="main" >
+    <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
+    <linkfile src="linkfiles/.tflint.hcl" dest=".tflint.hcl" />
+  </project>
+</manifest>

@@ -1,0 +1,10 @@
+<!--
+    This manifest sets up platform-components which is is a dependency of
+    anything in the Nexient Platform space.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="platform-components" path="components/platform" revision="main" >
+    <linkfile src="linkfiles/.releaserc.json" dest=".releaserc.json" />
+  </project>
+</manifest>

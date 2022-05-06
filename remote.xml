@@ -1,0 +1,8 @@
+<!--
+    This sets up the git connection and baselines
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="Nexient" fetch="https://github.com/nexient-llc/" />
+  <default remote="Nexient" upstream="main" />
+</manifest>
