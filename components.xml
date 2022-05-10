@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     This manifest is used to bootstrap any components repo. For example, it's
     used to develop tf-module-manifests
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml" />
   <include name="components/platform-components.xml" />

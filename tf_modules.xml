@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     This manifestis used for all TF modules
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="remote.xml" />
   <include name="components/platform-components.xml" />
