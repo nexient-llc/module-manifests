@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This manifestis used for all TF modules
+-->
+<manifest>
+  <include name="remote.xml" />
+  <include name="components/platform-components.xml" />
+  <include name="components/tf-module-components.xml" />
+</manifest>
