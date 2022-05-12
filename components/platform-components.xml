@@ -5,6 +5,6 @@
 -->
 <manifest>
   <project name="platform-components" path="components/platform" revision="main" >
-    <linkfile src="linkfiles/.releaserc.json" dest=".releaserc.json" />
+    <linkfile src="linkfiles/.semverbot.toml" dest=".semverbot.toml" />
   </project>
 </manifest>
