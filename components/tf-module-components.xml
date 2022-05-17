@@ -7,5 +7,6 @@
   <project name="tf-module-components" path="components/module" revision="main" >
     <linkfile src="linkfiles/Makefile" dest="components/Makefile" />
     <linkfile src="linkfiles/.tflint.hcl" dest=".tflint.hcl" />
+    <linkfile src="linkfiles/.golangci.yaml" dest=".golangci.yaml" />
   </project>
 </manifest>
