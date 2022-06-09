@@ -1,0 +1,17 @@
+name: "Tag Release Action"
+description: "create tagged release"
+author: "Nexient DevSecOps"
+
+inputs:
+  mode:
+    description: "Sets the versioning type to use. For options see https://github.com/restechnica/semverbot#modes"
+    default: "minor"
+runs:
+  using: "composite"
+  steps:
+    - name: tag release
+      run: |
+        sbot update version
+        sbot release version -m ${{ inputs.mode }}
+        sbot push version
+      shell: bash
